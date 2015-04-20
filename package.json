@@ -1,0 +1,18 @@
+{
+  "name": "config2env",
+  "version": "0.0.1",
+  "description": "Converts a configuration JSON file to *ix-styled environment variables",
+  "main": "src/config2env.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "author": "José Fresco",
+  "repository": "https://github.com/jfresco/config2env",
+  "license": "MIT",
+  "dependencies": {
+    "change-case": "^2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
